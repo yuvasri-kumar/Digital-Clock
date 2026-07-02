@@ -1,0 +1,40 @@
+/*body{
+    background-image: linear-gradient(to right,rgb(182, 130, 238),rgb(0, 247, 255),rgb(191, 0, 255));
+    background-image: no-repeat;
+}
+p{
+    border: 3px solid black;
+    width: 350px;
+    height: 50%;
+    margin-left: 20px;
+    margin-right: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 400px;
+    border-radius: 50px;
+}*/
+body{
+    background-image: linear-gradient(to right,rgb(182,130,238),rgb(0,247,255),rgb(191,0,255));
+    text-align: center;
+}
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.time-box{
+    border: 3px solid black;
+    padding: 20px;
+    font-size: 120px;
+    border-radius: 30px;
+    width: 180px;
+}
+
+span{
+    font-size: 120px;
+}
+
+
